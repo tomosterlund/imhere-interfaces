@@ -1,10 +1,9 @@
 import scheduleEvent from './schedule-event.interface'
-
-export type scheduleOwnerType = 'teacher' | 'student' | 'class' | 'school' | 'location';
+import {scheduleOwner} from "../types";
 
 export interface scheduleBelongsTo {
 	ownerId: string;
-	type: scheduleOwnerType;
+	type: scheduleOwner;
 }
 
 export interface scheduleInterface {
