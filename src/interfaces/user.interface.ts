@@ -1,15 +1,16 @@
-import addressInterface from "./address.interface";
-import {userRole} from "../types";
+import {userRole} from "../types/index";
 
-export default interface userInterface {
+export interface personNameInterface {
+	first: string;
+	last: string;
+}
+
+export interface userInterface {
 	_id?: string;
-	email?: string;
-	password?: string;
-	name?: object;
-	groups?: string[];
-	mainGroup?: string;
-	roles?: userRole[];
-	address?: addressInterface;
-	schoolId?: string;
-	imageUrl?: string;
+	username: string;
+	password: string;
+	roles: userRole[];
+	name: personNameInterface;
+	schoolId: string;
+	scheduleId?: string;
 }

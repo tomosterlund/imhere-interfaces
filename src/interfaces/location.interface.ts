@@ -1,6 +1,5 @@
-export default interface locationInterface {
+export interface locationInterface {
 	_id?: string;
-	name?: string;
-	schoolId?: string;
-	imageUrl?: string;
+	name: string;
+	scheduleId?: string;
 }

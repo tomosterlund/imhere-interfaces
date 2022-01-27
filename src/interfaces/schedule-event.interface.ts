@@ -1,24 +1,16 @@
-export interface timeInterface {
-	start: number;
-	end: number;
-	startPrint: number;
-	endPrint: number;
+export interface scheduleEventTimeInterface {
+	start: Date;
+	end: Date;
 }
 
-export interface locationInterface {
-	_id: string;
-	name: string;
-}
-
-export interface teacherInterface {
-	_id: string;
-	name: string;
-}
-
-export default interface scheduleEventInterface {
-	_id: string;
+export interface scheduleEventInterface {
+	_id?: string;
 	title: string;
-	teachers: teacherInterface[];
-	time: timeInterface
-	location: locationInterface;
+	description?: string;
+	subjectId?: string;
+	teacherIds?: string[];
+	locationId?: string;
+	schoolId?: string;
+	time?: scheduleEventTimeInterface;
+	insertIntoSchedule?: string; // Only for the POST requests, should not be saved in document
 }

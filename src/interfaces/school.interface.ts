@@ -1,9 +1,8 @@
-import addressInterface from "./address.interface";
+import {locationInterface} from "./location.interface";
 
-export default interface schoolInterface {
-	name?: string;
-	imageUrl?: string;
+export interface schoolInterface {
+	_id?: string;
+	name: string;
 	ownerId?: string;
-	admins?: string[];
-	address?: addressInterface;
+	locations?: locationInterface[];
 }
