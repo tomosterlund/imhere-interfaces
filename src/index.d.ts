@@ -8,13 +8,15 @@ import {userInterface} from './interfaces/user.interface'
 
 import {userRole} from "./types";
 
-export {
-	groupInterface,
-	locationInterface,
-	schoolInterface,
-	scheduleEventInterface,
-	scheduleInterface,
-	sessionInterface,
-	userInterface,
-	userRole
+declare global {
+	export {
+		groupInterface,
+		locationInterface,
+		schoolInterface,
+		scheduleEventInterface,
+		scheduleInterface,
+		sessionInterface,
+		userInterface,
+		userRole
+	}
 }
