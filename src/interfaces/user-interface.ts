@@ -1,4 +1,4 @@
-import {userRole} from "../types/index";
+import {userRole} from "../types";
 
 export interface personNameInterface {
 	first: string;

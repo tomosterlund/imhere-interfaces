@@ -1,4 +1,4 @@
-import {locationInterface} from "./location.interface";
+import {locationInterface} from "./location-interface";
 
 export interface schoolInterface {
 	_id?: string;
