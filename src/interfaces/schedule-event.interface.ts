@@ -13,4 +13,5 @@ export interface scheduleEventInterface {
 	schoolId?: string;
 	time?: scheduleEventTimeInterface;
 	insertIntoSchedule?: string; // Only for the POST requests, should not be saved in document
+	color?: string;
 }
