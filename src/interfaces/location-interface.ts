@@ -1,5 +1,5 @@
 export interface locationInterface {
-	_id?: string;
-	name: string;
-	imageUrl?: string;
+  _id?: string;
+  name: string;
+  imageUrl?: string;
 }
