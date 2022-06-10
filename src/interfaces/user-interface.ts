@@ -1,4 +1,5 @@
 import {userRole} from "../types";
+import {scheduleEventInterface} from "./schedule-event.interface";
 
 export interface personNameInterface {
 	first: string;
@@ -12,5 +13,7 @@ export interface userInterface {
 	roles: userRole[];
 	name: personNameInterface;
 	schoolId: string;
-	scheduleId?: string;
+	scheduleEvents?: scheduleEventInterface[];
+	groupId?: string;
+	imageUrl?: string;
 }
