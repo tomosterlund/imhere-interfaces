@@ -4,9 +4,9 @@ import {scheduleEventInterface} from './interfaces/schedule-event.interface'
 import {schoolInterface} from './interfaces/school-interface'
 import {sessionInterface} from './interfaces/session-interface'
 import {userInterface} from './interfaces/user-interface'
+import {subjectInterface} from './interfaces/subject.interface'
 
 import {userRole} from "./types";
-
 export {
   groupInterface,
   locationInterface,
@@ -14,5 +14,6 @@ export {
   scheduleEventInterface,
   sessionInterface,
   userInterface,
-  userRole
+  userRole,
+  subjectInterface
 }
