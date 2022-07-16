@@ -14,4 +14,5 @@ export interface scheduleEventInterface {
   time?: scheduleEventTimeInterface;
   insertIntoSchedule?: string; // Only for the POST requests, should not be saved in document
   color?: string;
+  cloneOfId?: string;
 }
