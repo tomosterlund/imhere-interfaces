@@ -5,9 +5,11 @@ import {schoolInterface} from './interfaces/school-interface'
 import {sessionInterface} from './interfaces/session-interface'
 import {userInterface} from './interfaces/user-interface'
 import {subjectInterface} from './interfaces/subject.interface'
+import {eventAttendanceInterface} from './interfaces/event-attendance.interface'
 
 import {userRole} from "./types";
 export {
+  eventAttendanceInterface,
   groupInterface,
   locationInterface,
   schoolInterface,
